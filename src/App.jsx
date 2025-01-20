@@ -104,7 +104,7 @@ const ClaimSection = () => {
 
   const handleSubmit = async (passphrase) => {
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/pass/', {
+      const response = await fetch('https://mutaihillary27.pythonanywhere.com/api/pass/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
